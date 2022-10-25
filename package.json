@@ -1,13 +1,13 @@
 {
-  "name": "@bilibili-activity/bgm",
-  "version": "0.0.1",
-  "description": "douza js库模板",
+  "name": "@justichentai/bgm",
+  "version": "1.0.0",
+  "description": "基于 howler 添加兼容性封装的音效控制库",
   "repository": {
     "type": "git",
-    "url": "https://git.bilibili.co/bilibili-activity/bgm"
+    "url": "https://github.com/JusticHentai/bgm"
   },
   "license": "ISC",
-  "author": "douza",
+  "author": "justichentai",
   "type": "module",
   "main": "dist/my-component.js",
   "typings": "dist/my-component.d.ts",
@@ -15,7 +15,7 @@
     "build": "rollup -c rollup.config.js"
   },
   "dependencies": {
-    "@bilibili-activity/is": "workspace:*",
+    "@justichentai/is": "workspace:*",
     "howler": "^2.2.3"
   },
   "devDependencies": {
