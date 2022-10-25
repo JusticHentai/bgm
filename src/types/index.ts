@@ -1,5 +1,4 @@
-import MyApiMap from './ApiMap'
-import Merge from './Merge'
+import { ApiMap as MyApiMap, Merge } from '@justichentai/types-utils'
 
 /**
  * 初始化选项

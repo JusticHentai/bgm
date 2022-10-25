@@ -1,9 +1,9 @@
 import { Env } from '../types'
-import onload from './events/onload'
 import onend from './events/onend'
-import onplay from './events/onplay'
-import onpause from './events/onpause'
+import onload from './events/onload'
 import onmute from './events/onmute'
+import onpause from './events/onpause'
+import onplay from './events/onplay'
 
 export interface Options {
   events: Record<string, any>

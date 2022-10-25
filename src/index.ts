@@ -1,16 +1,16 @@
+import { Howl } from 'howler'
 import {
+  BGMState,
+  Callback,
   DefaultOptions,
   InnerOptions,
   Options,
-  BGMState,
-  Callback,
 } from './types'
 import bgmInit from './utils/bgmInit'
-import { Howl } from 'howler'
 import eventInit from './utils/eventInit'
+import keydownPlayInit from './utils/keydownPlayInit'
 import touchPlayInit from './utils/touchPlayInit'
 import visiblePlayInit from './utils/visiblePlayInit'
-import keydownPlayInit from './utils/keydownPlayInit'
 
 /**
  * bgm
