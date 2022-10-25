@@ -1,5 +1,5 @@
+import { isArray } from '@justichentai/is'
 import { Howl } from 'howler'
-import { isArray } from '@bilibili-activity/is'
 
 export type Options = {
   bgm: string | string[]
